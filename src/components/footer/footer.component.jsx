@@ -1,0 +1,159 @@
+import React from "react";
+import "./footer.styles.css";
+
+const Footer = () => {
+  return (
+    <footer className="footer footer-3">
+      <div className="footer-top  pt-200 pb-lg-115 pb-120">
+        <div className="container">
+          <div className="row gx-0 pt-45 ">
+            <div className="col-lg-4 col-sm-6 text-center text-sm-start ms-0 ">
+              <div className="footer-widget wow fadeInLeft mb-30">
+                <div className="footer-bold">
+                  <span className="counter">
+                    <span>FINEANT</span>
+                  </span>
+                </div>
+                <div className="footer-text mb-20">
+                  <p>Financial Technology Revolution</p>
+                </div>
+
+                {/* <span className="overline">COTATION</span>
+
+                <div className="footer-bold">
+                  <span className="counter">
+                    $<span>35.105</span>{" "}
+                  </span>
+                  <span className="counter">
+                    -<span>0.46</span>%{" "}
+                  </span>
+                </div>
+                <p className="time">2021-01-05 14:00 (INTERNATIONAL TIME)</p> */}
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-sm-6 text-center text-sm-start ms-lg-5 ">
+              <div
+                className="footer-widget mb-30 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <div className="f-widget-title">
+                  <h5>Fineant at a Glance</h5>
+                </div>
+                <div className="footer-link">
+                  <ul>
+                    <li>
+                      <a href="#"> Our core Businesses</a>
+                    </li>
+                    <li>
+                      <a href="#"> Our 'company purpose'</a>
+                    </li>
+                    <li>
+                      <a href="#"> Jobs & Careers</a>
+                    </li>
+                    <li>
+                      <a href="#"> Our Responsibility</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2  col-sm-6 text-center text-sm-start ms-lg-5">
+              <div
+                className="footer-widget mb-30 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div className="f-widget-title">
+                  <h5>Publications</h5>
+                </div>
+                <div className="footer-link">
+                  <ul>
+                    <li>
+                      <a href="#"> Annual Reports</a>
+                    </li>
+                    <li>
+                      <a href="#"> CSR Reports</a>
+                    </li>
+                    <li>
+                      <a href="#"> Financial documentation</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-sm-6 text-center text-sm-start me-0 ms-lg-5">
+              <div
+                className="footer-widget mb-30 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div className="f-widget-title">
+                  <h5>Direct Access</h5>
+                </div>
+                <div className="footer-link">
+                  <ul>
+                    <li>
+                      <a href="#">Our news</a>
+                    </li>
+                    <li>
+                      <a href="#">Our press releases</a>
+                    </li>
+                    <li>
+                      <a href="#">Our job offers</a>
+                    </li>
+                    <li>
+                      <a href="#">Our websites</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="copyright pt-25 pb-25">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-3 text-center text-lg-start">
+              <a href="index.html" className="p-0 m-0">
+                <img src="img/logo/Logo.png" alt="logo" />
+              </a>
+            </div>
+            <div className="col-lg-5 text-center my-3 my-sm-0">
+              <div className="copyright-text">
+                <p>
+                  Copyright&copy; Fineant 2022. <br className="d-sm-none" />{" "}
+                  <a className="ms-2" href="#">
+                    Privecy
+                  </a>{" "}
+                  |
+                  <a className="ms-0" href="#">
+                    Term of Use
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 text-center text-lg-end ">
+              <div className="social-button">
+                <a href="#">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

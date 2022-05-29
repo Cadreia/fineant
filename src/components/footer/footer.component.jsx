@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.styles.css";
 
 const Footer = () => {
   return (
     <footer className="footer footer-3">
-      <div className="footer-top  pt-200 pb-lg-115 pb-120">
+      <div className="footer-top  pt-150 pb-lg-5 pb-50">
         <div className="container">
           <div className="row gx-0 pt-45 ">
+
             <div className="col-lg-4 col-sm-6 text-center text-sm-start ms-0 ">
               <div className="footer-widget wow fadeInLeft mb-30">
                 <div className="footer-bold">
@@ -17,22 +19,10 @@ const Footer = () => {
                 <div className="footer-text mb-20">
                   <p>Financial Technology Revolution</p>
                 </div>
-
-                {/* <span className="overline">COTATION</span>
-
-                <div className="footer-bold">
-                  <span className="counter">
-                    $<span>35.105</span>{" "}
-                  </span>
-                  <span className="counter">
-                    -<span>0.46</span>%{" "}
-                  </span>
-                </div>
-                <p className="time">2021-01-05 14:00 (INTERNATIONAL TIME)</p> */}
               </div>
             </div>
 
-            <div className="col-lg-2 col-sm-6 text-center text-sm-start ms-lg-5 ">
+            <div className="col-lg-6 col-sm-6 text-center text-sm-start ms-lg-5 ">
               <div
                 className="footer-widget mb-30 wow fadeInUp"
                 data-wow-delay="0.1s"
@@ -43,70 +33,22 @@ const Footer = () => {
                 <div className="footer-link">
                   <ul>
                     <li>
-                      <a href="#"> Our core Businesses</a>
+                      <Link className="nav-link" to="/about" role="button">
+                        {" "}
+                        About Us
+                      </Link>
                     </li>
                     <li>
-                      <a href="#"> Our 'company purpose'</a>
+                      <a href="#"> Cookies Policy</a>
                     </li>
                     <li>
-                      <a href="#"> Jobs & Careers</a>
-                    </li>
-                    <li>
-                      <a href="#"> Our Responsibility</a>
+                      <a href="#"> Privacy Policy</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-2  col-sm-6 text-center text-sm-start ms-lg-5">
-              <div
-                className="footer-widget mb-30 wow fadeInUp"
-                data-wow-delay="0.3s"
-              >
-                <div className="f-widget-title">
-                  <h5>Publications</h5>
-                </div>
-                <div className="footer-link">
-                  <ul>
-                    <li>
-                      <a href="#"> Annual Reports</a>
-                    </li>
-                    <li>
-                      <a href="#"> CSR Reports</a>
-                    </li>
-                    <li>
-                      <a href="#"> Financial documentation</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-sm-6 text-center text-sm-start me-0 ms-lg-5">
-              <div
-                className="footer-widget mb-30 wow fadeInUp"
-                data-wow-delay="0.5s"
-              >
-                <div className="f-widget-title">
-                  <h5>Direct Access</h5>
-                </div>
-                <div className="footer-link">
-                  <ul>
-                    <li>
-                      <a href="#">Our news</a>
-                    </li>
-                    <li>
-                      <a href="#">Our press releases</a>
-                    </li>
-                    <li>
-                      <a href="#">Our job offers</a>
-                    </li>
-                    <li>
-                      <a href="#">Our websites</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

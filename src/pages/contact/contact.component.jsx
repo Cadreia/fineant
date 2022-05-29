@@ -53,7 +53,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p>Email us:</p>
-                                        <span>hello@werfineant.com</span>
+                                        <span>hello@wearefineant.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -244,7 +244,7 @@ const Contact = () => {
                                             <h4 className="mb-0 collapsed" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="true"
                                                 aria-controls="collapseThree">
-                                                Do you offering refinancing ?<i className="icon_plus"></i><i
+                                                Do you offer refinancing ?<i className="icon_plus"></i><i
                                                     className=" icon_minus-06"></i>
                                             </h4>
                                         </div>

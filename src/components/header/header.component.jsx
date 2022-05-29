@@ -39,7 +39,7 @@ const Header = () => {
 
                   <li>
                     <i className="icon_mail_alt"></i>
-                    <a href="mailto:hello@ifineant.com">hello@werfineant.com</a>
+                    <a href="mailto:hello@ifineant.com">hello@wearefineant.com</a>
                   </li>
                 </ul>
               </div>
@@ -50,12 +50,15 @@ const Header = () => {
       <div className="header-menu header-menu-2" id="sticky">
         <nav className="navbar navbar-expand-lg ">
           <div className="container">
-            <a className="navbar-brand" href="index.html">
+            {/* <a className="navbar-brand" href="/">
               <img
                 src="img/logo/Logo-2.png"
                 srcSet="img/logo/Logo-2@2x.png 2x"
                 alt="logo"
               />
+            </a> */}
+            <a className="navbar-brand" href="/">
+              <img srcSet="fineant-logo-cropped.png" alt="fineant" />
             </a>
             <button
               className="navbar-toggler collapsed"

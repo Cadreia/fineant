@@ -4,7 +4,7 @@ import './about.styles.css'
 function About() {
   return (
     <main>
-        <section className="banner-area-2 pt-145" style={{backgroundImage: 'url(img/banner/about-bg.png)'}}>
+        <section className="banner-area-2 pt-145" style={{backgroundImage: 'url(img/banner/about.jpg)'}}>
             <div className="container">
                 <div className="row align-items-center pt-130 pb-140">
                     <div className="col-xl-6 col-lg-8">
@@ -14,48 +14,38 @@ function About() {
                                 <h1 className="wow fadeInUp mb-0" data-wow-delay='0.2s'>Believing, banking and achieving
                                     different</h1>
                             </div>
-                            <a className="theme-btn-2 theme-btn-primary mt-45 wow fadeInUp" data-wow-delay="0.4s" href="#">
-                                <span className="arrow">
-                                    <span className="horizontal-line"></span>
-                                </span>View our 2019 Annual Report
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="bg_white pt-90 pb-160 ">
+        <section className="bg_white pt-90 pb-100 ">
             <div className="container">
                 <div className="description-widget">
                     <div className="row">
-                        <div className="col-md-4">
-                            <div className="desc-title text-end bg_primary">
-                                <h2>A journey that started with a belief to Bank Different</h2>
-                            </div>
-                        </div>
+                        <div className="col-md-2"></div>
                         <div className="col-md-8">
                             <div className="desc-text pl-lg-10">
-                                <p className="mt-35">Banca Bank’s journey started with a single belief to connect people,
-                                    places and
-                                    possibilities by doing things others said could not be done. Anchored on this
-                                    belief,
-                                    the Bank was founded in 2017 and we are, to date, headquartered in the Mauritius
-                                    International Financial Centre with a representative office in United States.</p>
-                                <p className="mt-20">Banca Bank's core banking and transactional capabilities are also
-                                    complemented. Banca
-                                    experienced team and its regional foundation are complemented by the belief and
-                                    trust
-                                    our clients have in our ability to connect them to a global banking network to
-                                    seamlessly achieve their financial aspirations.</p>
+                                <p className="mt-35">
+                                    As an Africa focused technology company that provides innovative and cost-effective solutions and services that infuse disruptive capabilities that addres business challenges.
+                                </p>
+                                <p className="mt-20">
+                                    We act local, but think globally as we help our esteemed clients unlock customer value. Our philosophy of growth stems from our intrinsic ability to infuse disruptive capabilities.
+                                </p>
+                                <p className="mt-20">
+                                    We have more than 8 years experience providing cutting edge technology solutions and services to some of the leading Insurance companies in Africa.
+                                    Our uncompromising focus on quality, and our value driven approach to customer engagement has made us a force to reckon with.
+                                </p>
                             </div>
                         </div>
+                        <div className="col-md-2"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="statistics-area pt-135 pb-140 bg_disable">
+        {/* <section className="statistics-area pt-135 pb-140 bg_disable">
             <div className="container">
                 <div className="row gy-lg-0 gy-4 ">
                     <div className="col-lg-7">
@@ -161,9 +151,9 @@ function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
-        <section className="recognition-area bg_white pt-135 pb-140">
+        {/* <section className="recognition-area bg_white pt-135 pb-140">
             <div className="container">
                 <div className="section-title text-start">
                     <span className="short-title mt-0 wow fadeInUp">
@@ -342,9 +332,9 @@ function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
-        <section className="cta-area-2 pt-80 pb-80">
+        {/* <section className="cta-area-2 pt-80 pb-80">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
@@ -360,7 +350,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
     </main>
   )
 }

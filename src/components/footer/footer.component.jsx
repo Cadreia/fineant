@@ -57,9 +57,9 @@ const Footer = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-3 text-center text-lg-start">
-              <a href="index.html" className="p-0 m-0">
+              {/* <a href="index.html" className="p-0 m-0">
                 <img src="img/logo/Logo.png" alt="logo" />
-              </a>
+              </a> */}
             </div>
             <div className="col-lg-5 text-center my-3 my-sm-0">
               <div className="copyright-text">

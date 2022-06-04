@@ -34,7 +34,7 @@ const Header = () => {
                       src="img/phone-outline-white.png"
                       alt="phone"
                     />
-                    <a href="tel:01234567890">+237 651-277-580</a>
+                    <a href="tel:01234567890">+237 652-741-226</a>
                   </li>
 
                   <li>
